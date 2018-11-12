@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.Login.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signin"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/colorGreen"
+        android:layout_margin="@dimen/margin10dp"/>
+
+    <EditText
+        android:id="@+id/et_Signin_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/margin10dp"
+        android:hint="@string/Email" />
+
+    <EditText
+        android:id="@+id/et_Signin_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin10dp"
+        android:hint="@string/Password" />
+
+    <Button
+        android:id="@+id/btn_SignIn_Activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin10dp"
+        android:background="@color/colorGreen"
+        android:text="@string/signin"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center"/>
+
+
+
+
+
+</LinearLayout>
